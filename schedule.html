@@ -1,0 +1,85 @@
+---
+layout: default
+css: schedule
+---
+
+<div class="banner">
+    <h2>Schedule</h2>
+    <p>INCOGNITO 컨퍼런스의 전체 일정입니다</p>
+</div>
+<div class="article">
+    <div class="schedule">
+        <ul class="nav nav-tabs schedule-tab">
+            <li class="nav-item col-sm-4"><a class="nav-link" data-toggle="tab" href="#friday">FRIDAY</a></li>
+            <li class="nav-item col-sm-4"><a class="nav-link" data-toggle="tab" href="#saturday">SATURDAY</a></li>
+            <li class="nav-item col-sm-4"><a class="nav-link" data-toggle="tab" href="#sunday">SUNDAY</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active schedule-friday" id="friday">
+                {% for time in site.data.schedule.Friday %}
+                <div class="schedule-time">
+                    FRIDAY | {{ time.time }}
+                </div>
+                {% for item in time.detail %}
+                <div class="schedule-item">
+                    <a href="{{ item.link }}"><strong>
+                        {{ item.title }}
+                    </strong></a><br>
+                    <ul>
+                        <li><strong>Speaker</strong>:&nbsp; {{ item.speaker }}</li>
+                        <li><strong>Format</strong>:&nbsp; {{ item.format }}</li>
+                        {% if item.track %}
+                        <li><strong>Tracks</strong>:&nbsp; {{ item.track }}</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </div>
+
+            <div class="tab-pane fade schedule-saturday" id="saturday">
+                {% for time in site.data.schedule.Saturday %}
+                <div class="schedule-time">
+                    SATURDAY | {{ time.time }}
+                </div>
+                {% for item in time.detail %}
+                <div class="schedule-item">
+                    <a href="{{ item.link }}"><strong>
+                        {{ item.title }}
+                    </strong></a><br>
+                    <ul>
+                        <li><strong>Speaker</strong>:&nbsp; {{ item.speaker }}</li>
+                        <li><strong>Format</strong>:&nbsp; {{ item.format }}</li>
+                        {% if item.track %}
+                        <li><strong>Tracks</strong>:&nbsp; {{ item.track }}</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </div>
+
+            <div class="tab-pane fade schedule-sunday" id="sunday">
+                {% for time in site.data.schedule.Sunday %}
+                <div class="schedule-time">
+                    SUNDAY | {{ time.time }}
+                </div>
+                {% for item in time.detail %}
+                <div class="schedule-item">
+                    <a href="{{ item.link }}"><strong>
+                        {{ item.title }}
+                    </strong></a><br>
+                    <ul>
+                        <li><strong>Speaker</strong>:&nbsp; {{ item.speaker }}</li>
+                        <li><strong>Format</strong>:&nbsp; {{ item.format }}</li>
+                        {% if item.track %}
+                        <li><strong>Tracks</strong>:&nbsp; {{ item.track }}</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

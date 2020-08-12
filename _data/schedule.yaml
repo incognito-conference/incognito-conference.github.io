@@ -1,0 +1,41 @@
+Friday:
+  - time: 9:00 AM
+    detail:
+      - title: Opening
+        link: /
+        speaker: 송주현
+        format: Welcome Events
+  - time: 10:00 AM
+    detail:
+      - title: 고려대학교 융합보안대학원 소개
+        link: /
+        speaker: 고려대학교
+        format: 40-Minute Briefings
+
+Saturday:
+  - time: 9:00 AM
+    detail:
+      - title: Opening
+        link: /
+        speaker: 송주현
+        format: Welcome Events
+  - time: 10:00 AM
+    detail:
+      - title: 고려대학교 융합보안대학원 소개
+        link: /
+        speaker: 고려대학교
+        format: 40-Minute Briefings
+
+Sunday:
+  - time: 9:00 AM
+    detail:
+      - title: Opening
+        link: /
+        speaker: 송주현
+        format: Welcome Events
+  - time: 10:00 AM
+    detail:
+      - title: 고려대학교 융합보안대학원 소개
+        link: /
+        speaker: 고려대학교
+        format: 40-Minute Briefings

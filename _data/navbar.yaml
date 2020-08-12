@@ -1,0 +1,4 @@
+- name: Home
+  link: /
+- name: Schedule
+  link: /schedule.html

@@ -1,0 +1,80 @@
+.banner {
+    margin-bottom: 5rem;
+    padding: 6rem 1rem 3rem 1rem;
+    background: none;
+    text-align: center;
+}
+
+.banner-title {
+    font-family: 'Product Sans';
+}
+
+.banner-title h1 strong {
+    font-size: 0;
+}
+.banner-title h1 strong span {
+    font-size: 3.3rem;
+}
+@media all and (min-width: 768px) {
+    .banner-title h1 strong span {
+        font-size: 5.2rem;
+    }
+}
+
+.banner-title p {
+    margin-top: -.5rem;
+    font-size: 0;
+}
+.banner-title p span {
+    font-size: 1.32rem;
+}
+@media all and (min-width: 768px) {
+    .banner-title p span {
+        font-size: 2.1rem;
+    }
+}
+
+.banner-title .color-1 {
+    color: rgb(255, 255, 255);
+}
+.banner-title .color-2 {
+    color: rgb(225, 225, 225);
+}
+.banner-title .color-3 {
+    color: rgb(195, 195, 195);
+}
+
+.banner-date {
+    margin-top: 1.3rem;
+    font-family: 'Product Sans';
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+@media all and (min-width: 768px) {
+    .banner-date {
+        margin-top: 1.3rem;
+        font-family: 'Product Sans';
+        font-size: 1.4rem;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.article {
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    color: white;
+}
+@media all and (min-width: 768px) {
+    .article {
+        margin: 1.5rem 10rem 1.5rem 1.5rem;
+    }
+}
+
+.article-title {
+    margin: .5rem 0;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.article-content {
+    font-size: 1.1rem;
+}

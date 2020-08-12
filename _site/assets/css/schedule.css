@@ -1,0 +1,67 @@
+.banner {
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+@media all and (min-width: 768px) {
+    .banner h2 {
+        font-size: 3.3rem;
+    }
+}
+
+.article {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+@media all and (min-width: 768px) {
+    .article {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+.schedule ul {
+    border: none;
+    font-size: 1.2rem;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.schedule ul li {
+    padding: 0 !important;
+}
+
+.schedule ul li a {
+    border-radius: 0% !important;
+    color: rgb(200, 200, 200)
+}
+
+.schedule-time {
+    height: 2.3rem;
+    border: 1px solid white;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    padding-left: .5rem;
+    background-color:#006666;
+    color: white;
+    line-height: 2.3rem;
+}
+
+.schedule-item a {
+    color:#99ffff;
+    font-size: 1.15rem;
+}
+
+.schedule-item ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.schedule-item ul li {
+    margin-bottom: -.2rem;
+}

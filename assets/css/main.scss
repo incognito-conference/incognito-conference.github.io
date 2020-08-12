@@ -1,0 +1,58 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+/* Product Sans font */
+@font-face {
+	font-family: 'Product Sans';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../product-sans.woff') format('woff');
+}
+
+/* global stylesheet */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-family: 'Product Sans';
+}
+
+/* navbar stylesheet */
+.navbar {
+	height: 4.5em;
+	background-color: rgb(0, 0, 0) !important;
+}
+
+.navbar-brand {
+	font-family: 'Product Sans';
+	font-size: 1.5em;
+}
+
+.navbar-nav {
+	background-color: black;
+}
+
+/* content stylesheet */
+.content {
+	padding-bottom: 4rem;
+	background: url('../../assets/img/bg-home.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* footer stylesheet */
+.page-footer {
+	background-color: black;
+	color: rgb(140, 140, 140);
+}
+
+.page-footer row {
+	text-align: left;
+}

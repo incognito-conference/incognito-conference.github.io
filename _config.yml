@@ -1,0 +1,5 @@
+baseurl: ""
+url: "https://incognito-conference.github.io"
+
+sass:
+    sass_dir: assets/css
