@@ -5,7 +5,7 @@ css: schedule
 
 <div class="banner">
     <h2>Schedule</h2>
-    <p>INCOGNITO 컨퍼런스의 전체 일정입니다</p>
+    <p>모든 온라인 세션은 제목을 클릭하여 접속할 수 있습니다</p>
 </div>
 <div class="article">
     <div class="schedule">
@@ -26,7 +26,9 @@ css: schedule
                         {{ item.title }}
                     </strong></a><br>
                     <ul>
+                        {% if item.speaker %}
                         <li><strong>Speaker</strong>:&nbsp; {{ item.speaker }}</li>
+                        {% endif %}
                         <li><strong>Format</strong>:&nbsp; {{ item.format }}</li>
                         {% if item.track %}
                         <li><strong>Tracks</strong>:&nbsp; {{ item.track }}</li>
