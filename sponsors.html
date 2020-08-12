@@ -1,0 +1,32 @@
+---
+layout: default
+css: sponsors
+---
+
+<div class="banner">
+    <h2>Sponsors</h2>
+    <p>INCOGNITO를 후원해 주시는 분들입니다</p>
+</div>
+<div class="article">
+    <div class="table-responsive">
+        <table class="table">
+            {% for sponsor in site.data.sponsors %}
+            <tr>
+                <td class="white-bg">
+                    <div class="container">
+                    <img src="{{ sponsor.img }}">
+                    </div>
+                </td>
+                <td class="black-bg">
+                    <div class="container">
+                    <div class="sponsor-title"><strong>
+                            {{ sponsor.name }}
+                        </strong></div>
+                    <a href="{{ sponsor.link }}">{{ sponsor.link }}</a>
+                    </div>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
