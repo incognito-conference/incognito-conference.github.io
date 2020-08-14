@@ -1,5 +1,13 @@
+title: INCOGNITO
+description: 2020 Hacking Conference
+
+repository: incognito-conference/incognito-conference.github.io
+
 baseurl: ""
 url: "https://incognito-conference.github.io"
 
+image: "assets/img/bg-link.jpg"
+
 sass:
     sass_dir: assets/css
+
