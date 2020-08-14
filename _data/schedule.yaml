@@ -2,33 +2,33 @@ Friday:
   - time: 10:00 AM
     detail:
       - title: Opening
-        link: /
+        link: https://meet.google.com/zwf-rfig-dhe
         speaker: 송주현(고려대)
         format: Keynote
   - time: 11:00 AM
     detail:
       - title: 고려대학교 융합보안대학원 소개
-        link: /
+        link: https://meet.google.com/hsg-ctbf-mfo
         speaker: 컴퓨터보안전공(고려대)
         format: Keynote
   - time: 1:00 PM
     detail:
       - title: 무선 신호 세기를 이용한 디바이스 탐지
-        link: /
+        link: https://meet.google.com/syj-mwtt-gwq
         speaker: 이준석(세명컴퓨터고)
         format: 40-Minute Briefings
         track: Network, Hardware
   - time: 2:00 PM
     detail:
       - title: 브라우저별 시크릿 모드 동향과 탐지
-        link: /
+        link: https://meet.google.com/vfk-ehhy-nxc
         speaker: 이다현(서울여대)
         format: 40-Minute Briefings
         track: Application
   - time: 3:00 PM
     detail:
       - title: 메모리 포렌식 우회를 적용한 기존 도구들의 한계
-        link: /
+        link: https://meet.google.com/obn-kvjf-bqo
         speaker: 정유경(서울여대)
         format: 40-Minute Briefings
         track: Forensics
@@ -41,35 +41,35 @@ Saturday:
         speaker: Online
         format: 24-Hours CTF
       - title: 무선 공유기 펌웨어 해킹
-        link: /
+        link: https://meet.google.com/wno-zsai-iwt
         speaker: 김준태(선린인터넷고), 장창서(고려대)
         format: 2-Hours Training
         track: Exploit Development, Hardware
   - time: 1:00 PM
     detail:
       - title: 메모리 포렌식을 이용한 메모리 안티 포렌식 기법 탐지
-        link: /
+        link: https://meet.google.com/eni-zqmo-omk
         speaker: 신지호(목포대)
         format: 40-Minute Briefings
         track: Forensics
   - time: 2:00 PM
     detail:
       - title: USB 복구 프로그램 원리 이해와 제작
-        link: /
+        link: https://meet.google.com/eng-dece-dfr
         speaker: 이창엽(Anti-root)
         format: 40-Minute Briefings
         track: Forensics
   - time: 3:00 PM
     detail:
       - title: FaceID 인증 시스템 개발 및 상용 시스템 분석
-        link: /
+        link: https://meet.google.com/drt-hzfy-xta
         speaker: 조수민(인하대)
         format: 40-Minute Briefings
         track: Application
   - time: 4:00 PM
     detail:
       - title: ICS/IoT/OT Thread Hunting
-        link: /
+        link: https://meet.google.com/bgb-czgs-pvn
         speaker: 김지민(한국IT전문학교)
         format: 40-Minute Briefings
         track: Exploit Development, Hardware
@@ -77,41 +77,41 @@ Saturday:
 Sunday:
   - time: 10:00 AM
     detail:
-      - title: [TBD]
-        link: /
+      - title: TBD
+        link: https://meet.google.com/zzq-xzan-gqp
         speaker: 김규빈(Defenit)
         format: 40-Minute Briefings
         track: Forensics
   - time: 11:00 AM
     detail:
       - title: Process Injection 기법을 적용한 백신의 정적, 동적 탐지 우회
-        link: /
+        link: https://meet.google.com/zan-kphf-tbo
         speaker: 김성민(목포대)
         format: 40-Minute Briefings
         track: Forensics
   - time: 1:00 PM
     detail:
       - title: 공개 리포지토리에서 배포되는 악성코드 대상 자동화 탐지
-        link: /
+        link: https://meet.google.com/ibu-tsxr-nhg
         speaker: 유하영(서울여대)
         format: 40-Minute Briefings
         track: Malware, Application
   - time: 2:00 PM
     detail:
       - title: Ghidra vs IDA
-        link: /
+        link: https://meet.google.com/aqu-wjam-vwk
         speaker: 이준수(고려대), 장창서(고려대)
         format: 40-Minute Briefings
         track: Application
   - time: 3:00 PM
     detail:
       - title: INCOGNITO CTF Write-ups
-        link: /
+        link: https://meet.google.com/bwv-wnmk-cxw
         speaker: INCOGNITO CTF Winner
         format: Keynote
   - time: 4:00 PM
     detail:
       - title: Closing
-        link: /
+        link: https://meet.google.com/zck-nbte-gfv
         speaker: 송주현(고려대)
         format: Keynote
