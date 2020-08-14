@@ -77,7 +77,7 @@ Saturday:
 Sunday:
   - time: 10:00 AM
     detail:
-      - title: TBD
+      - title: 영상회의 프로그램 아티팩트 분석
         link: https://meet.google.com/zzq-xzan-gqp
         speaker: 김규빈(Defenit)
         format: 40-Minute Briefings
