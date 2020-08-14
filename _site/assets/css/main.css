@@ -2077,4 +2077,10 @@ html, body { height: 100%; margin: 0; padding: 0; color: white; font-family: Ari
 
 .page-footer row { text-align: left; }
 
+.footer-content { text-align: left !important; padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+
+@media all and (min-width: 768px) { .footer-content { padding-left: 4rem !important; } }
+
+.contacts a { color: #8c8c8c !important; }
+
 /*# sourceMappingURL=main.css.map */

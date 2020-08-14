@@ -56,3 +56,18 @@ html, body {
 .page-footer row {
 	text-align: left;
 }
+
+.footer-content {
+	text-align: left !important;
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+}
+@media all and (min-width: 768px) {
+	.footer-content {
+		padding-left: 4rem !important;
+	}
+}
+
+.contacts a {
+	color: rgb(140, 140, 140) !important;
+}
