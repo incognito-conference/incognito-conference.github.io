@@ -61,7 +61,7 @@ Saturday:
         track: Forensics
   - time: 3:00 PM
     detail:
-      - title: FaceID 인증 시스템 개발 및 상용 시스템 분석
+      - title: FaceID 인증 시스템 개발 및 기법 분석
         link: https://meet.google.com/drt-hzfy-xta
         speaker: 조수민(인하대)
         format: 40-Minute Briefings
