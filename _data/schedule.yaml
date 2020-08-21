@@ -102,7 +102,7 @@ Sunday:
         link: https://meet.google.com/aqu-wjam-vwk
         speaker: 이준수(고려대), 장창서(고려대)
         format: 40-Minute Briefings
-        track: Application
+        track: Reverse Engineering, Application
   - time: 3:00 PM
     detail:
       - title: INCOGNITO CTF Write-ups
