@@ -36,15 +36,17 @@ Friday:
 Saturday:
   - time: 10:00 AM
     detail:
-      - title: INCOGNITO CTF
-        link: /
-        speaker: Online
-        format: 24-Hours CTF
       - title: 무선 공유기 펌웨어 해킹
         link: https://meet.google.com/wno-zsai-iwt
         speaker: 김준태(선린인터넷고), 장창서(고려대)
         format: 2-Hours Training
         track: Exploit Development, Hardware
+  - time: 12:00 PM
+    detail:
+      - title: INCOGNITO CTF
+        link: http://incognito.spr.io
+        speaker: Online
+        format: 12-Housr CTF
   - time: 1:00 PM
     detail:
       - title: 메모리 포렌식을 이용한 메모리 안티 포렌식 기법 탐지
