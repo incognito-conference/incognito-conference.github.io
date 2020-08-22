@@ -51,7 +51,7 @@ Saturday:
     detail:
       - title: 메모리 포렌식을 이용한 메모리 안티 포렌식 기법 탐지
         link: https://meet.google.com/eni-zqmo-omk
-        speaker: 신지호(목포대)
+        speaker: 강창협(목포대)
         format: 40-Minute Briefings
         track: Forensics
   - time: 2:00 PM
