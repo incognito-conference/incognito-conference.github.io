@@ -105,12 +105,6 @@ Sunday:
         speaker: 이준수(고려대), 장창서(고려대)
         format: 40-Minute Briefings
         track: Reverse Engineering, Application
-  - time: 3:00 PM
-    detail:
-      - title: INCOGNITO CTF Write-ups
-        link: https://meet.google.com/bwv-wnmk-cxw
-        speaker: INCOGNITO CTF Winner
-        format: Keynote
   - time: 4:00 PM
     detail:
       - title: Closing
