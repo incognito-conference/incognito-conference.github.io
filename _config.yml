@@ -9,5 +9,5 @@ url: "https://incognito-conference.github.io"
 image: "img/header-bg.jpg"
 
 sass:
-    sass_dir: css
+    sass_dir: scss
 
