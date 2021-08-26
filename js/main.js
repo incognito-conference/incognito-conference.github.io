@@ -249,7 +249,7 @@ $(document).ready(function(){
         // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timer").innerHTML = "EXPIRED";
+            document.getElementById("timer").innerHTML = "In Progress";
         }
     }, 1000);
 
