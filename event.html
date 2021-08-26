@@ -16,6 +16,56 @@
 	<!-- Site Title -->
 	<title>Conference</title>
 
+	<style>
+	*{
+box-sizing: border-box;
+}
+
+.que:first-child{
+	border-top: 1px solid black;
+}
+
+.que{
+position: relative;
+padding: 17px 0;
+cursor: pointer;
+font-size: 14px;
+border-bottom: 1px solid #dddddd;
+
+}
+
+.que::before{
+display: inline-block;
+content: 'EVENT';
+font-size: 14px;
+color: #006633;
+margin-right: 5px;
+}
+
+.que.on>span{
+font-weight: bold;
+color: #006633;
+}
+
+.anw {
+display: none;
+	overflow: hidden;
+font-size: 14px;
+background-color: #f4f4f2;
+padding: 27px 0;
+}
+
+.anw::before {
+display: inline-block;
+content: 'A';
+font-size: 14px;
+font-weight: bold;
+color: #666;
+margin-right: 5px;
+}
+	</style>
+
+
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 		<!--
 		CSS
@@ -67,14 +117,30 @@
 		<!-- End banner Area -->
 		<!-- Start Sample Area -->
 		<div class="section-top-border">
-		<center>
-	<img src="img/event1.jpg" href="img/event1.jpg" class="img-pop-up" style="max-width:50%; height:auto; padding:10px;"></a>
-</center>
+			<div id="Accordion_wrap">
+     <div class="que">
+      <span>우수 발표자 이벤트</span>
+     </div>
+     <div class="anw">
+      <span><center>
+		<img src="img/event1.jpg" href="img/event1.jpg" class="img-pop-up" style="max-width:50%; height:auto; padding:10px;"></a>
+	</center></span>
+     </div>
+      <div class="que">
+      <span>참여 이벤트</span>
+     </div>
+     <div class="anw">
+      <span><center>
+		<img src="img/event2.jpg" href="img/event2.jpg" class="img-pop-up" style="max-width:50%; height:auto; padding:10px;"></a>
+		</center></span>
+     </div>
+      <div class="que">
+      <span>준비중</span>
+     </div>
+     <div class="anw">
+      <span>준비중</span>
+     </div>
 </div>
-<div class="section-top-border">
-	<center>
-<img src="img/event2.jpg" href="img/event2.jpg" class="img-pop-up" style="max-width:50%; height:auto; padding:10px;"></a>
-</center>
 </div>
 		<!-- End Sample Area -->
 
@@ -99,7 +165,16 @@
 		</footer>
 		<!-- End footer Area -->
 
+		<script type="text/javascript">
+		$(".que").click(function() {
+   $(this).next(".anw").stop().slideToggle(300);
+  $(this).toggleClass('on').siblings().removeClass('on');
+  $(this).next(".anw").siblings(".anw").slideUp(300); // 1개씩 펼치기
+});
 
+		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
