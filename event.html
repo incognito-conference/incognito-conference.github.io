@@ -116,19 +116,23 @@ margin-right: 5px;
 		</section>
 		<!-- End banner Area -->
 		<!-- Start Sample Area -->
-		<div class="section-top-border">
-			<dl>
-    <dt><span></span>우수 발표자 이벤트</dt>
-    <dd><center>
+		<section class="sample-text-area">
+		<div class="container">
+			<details>
+    <summary>우수 발표자 이벤트</summary>
+		<center>
 	<img src="img/event1.jpg" href="img/event1.jpg" class="img-pop-up" style="max-width:50%; height:auto; padding:10px;"></a>
-</center></dd>
-    <dt><span></span>참여 이벤트</dt>
-    <dd><center>
+</center>
+</details>
+<details>
+    <summary>참여 이벤트</summary>
+		<center>
 	<img src="img/event2.jpg" href="img/event2.jpg" class="img-pop-up" style="max-width:50%; height:auto; padding:10px;"></a>
-	</center></dd>
-</dl>
+	</center>
+</details>
 
 </div>
+</section>
 		<!-- End Sample Area -->
 
 		<!-- start footer Area -->
@@ -152,20 +156,6 @@ margin-right: 5px;
 		</footer>
 		<!-- End footer Area -->
 
-		<script type="text/javascript">
-		$('dt').on('click', function () {
-
-		    if ($(this).hasClass('on')) {
-		        slideUp();
-		    } else {
-		        slideUp();
-		        $(this).addClass('on').next().slideDown();
-		    }
-		    function slideUp() {
-		        $('dt').removeClass('on').next().slideUp();
-		    };
-		})
-		</script>
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
