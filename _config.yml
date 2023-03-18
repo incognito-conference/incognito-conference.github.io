@@ -1,0 +1,13 @@
+title: INCOGNITO
+description: 2021 Hacking Conference
+
+repository: incognito-conference/incognito-conference.github.io
+
+baseurl: ""
+url: "https://incognito-conference.github.io"
+
+image: "img/header-bg.jpg"
+
+sass:
+    sass_dir: scss
+
