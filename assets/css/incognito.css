@@ -1,0 +1,68 @@
+/* Global */
+
+#main article {
+    width: 65rem;
+}
+
+.logo > img {
+    width: 4.75rem;
+    height: 4.75rem;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* About */
+#about p {
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+#about p .emphasis {
+    color: #FFBA00;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Schedule */
+#schedule tr:nth-child(even) {
+    background-color: #2e2649;
+}
+
+#schedule tr:nth-child(odd) {
+    background-color: #423b5b;
+}
+
+#schedule th {
+    background-color: #342F44;
+    color: white;
+}
+
+#schedule td {
+    border: none !important;
+}
+
+
+/* Sponsor */
+
+#sponsor-title {
+    text-align: center;
+}
+
+#sponsor-title-image {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsers-icons {
+    background-color: gainsboro;
+}
+
+.sponsers-icons img {
+    height: 60px;
+    margin: 24px;
+}
