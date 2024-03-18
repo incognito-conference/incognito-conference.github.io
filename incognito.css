@@ -67,6 +67,18 @@ section {
     margin: 24px;
 }
 
+/* Incognito */
+.incognito-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.incognito-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* Event */
 .event-images {
     display: flex;
