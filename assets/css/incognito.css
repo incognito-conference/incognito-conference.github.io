@@ -66,3 +66,28 @@ section {
     height: 60px;
     margin: 24px;
 }
+
+/* Event */
+.event-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.event-images img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* CTF */
+.ctf-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.ctf-images img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0;
+}
