@@ -68,13 +68,13 @@ section {
 }
 
 /* Incognito */
-.incognito {
+.incognito-image {
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
 }
-.incognito img {
+.incognito-image img {
     max-width: 100%;
     max-height: 100%;
 }
