@@ -68,6 +68,10 @@ section {
 }
 
 /* Incognito */
+#incognito {
+    width: 100%;
+    height: 100%;
+}
 .incognito-image {
     display: flex;
     flex-direction: column;
