@@ -1,30 +1,58 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+TITLE: 
+Tasty - 100% Fully Responsive Free HTML5 Bootstrap Template for Restaurant
+
+AUTHOR:
+DESIGNED & DEVELOPED by FreeHTML5.co
+
+Website: http://freehtml5.co/
+Twitter: http://twitter.com/fh5co
+Facebook: http://facebook.com/fh5co
 
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+CREDITS:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Bootstrap
+http://getbootstrap.com/
 
-(* = not included)
+jQuery
+http://jquery.com/
 
-AJ
-aj@lkn.io | @ajlkn
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
 
+Modernizr
+http://modernizr.com/
 
-Credits:
+Google Fonts
+https://www.google.com/fonts/
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Icomoon
+https://icomoon.io/app/
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Respond JS
+https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+animate.css
+http://daneden.me/animate
+
+jQuery Waypoint
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+
+Flexslider
+http://flexslider.woothemes.com/
+
+Zoomerang
+http://yyx990803.github.io/zoomerang/
+
+DateTimePicker
+https://github.com/Eonasdan/bootstrap-datetimepicker
+
+MomentJS
+http://momentjs.com
+
+Stellar Parallax
+http://markdalgleish.com/projects/stellar.js/
+
+Demo Images:
+http://unsplash.com
