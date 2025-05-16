@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
-  font-family: "Black Han Sans", sans-serif;
+  font-family: "ONE-Mobile-POP", sans-serif;
   font-weight: 500;
   font-style: normal;
   background: #221b82 !important;
@@ -14,7 +20,7 @@ body {
 }
 h1,
 h2 {
-  font-family: "Black Han Sans", sans-serif;
+  font-family: "ONE-Mobile-POP", sans-serif;
   font-weight: 500;
   font-style: normal;
 }

@@ -1,13 +1,20 @@
 /* Sponsors Page Styles */
 @import url('style.css');
 
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .sponsors-header {
   padding: 120px 0 60px;
   text-align: center;
 }
 
 .sponsors-header h1 {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'ONE-Mobile-POP', sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 48px;
@@ -15,7 +22,7 @@
 }
 
 .sponsors-header p {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'ONE-Mobile-POP', sans-serif;
   font-size: 20px;
   max-width: 800px;
   margin: 0 auto;
@@ -82,13 +89,13 @@
 }
 
 .sponsor-name {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'ONE-Mobile-POP', sans-serif;
   font-size: 20px;
   margin: 10px 0;
 }
 
 .sponsor-description {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'ONE-Mobile-POP', sans-serif;
   text-align: center;
   font-size: 16px;
   line-height: 1.6;
@@ -163,12 +170,12 @@ th,
 td,
 input,
 button {
-  font-family: 'Black Han Sans', sans-serif !important;
+  font-family: 'ONE-Mobile-POP', sans-serif !important;
 }
 
 #fh5co-logo,
 #fh5co-logo a {
-  font-family: Georgia, serif !important;
+  font-family: ONE-Mobile-POP !important;
   font-weight: 700 !important;
   font-size: 64px;
 }
