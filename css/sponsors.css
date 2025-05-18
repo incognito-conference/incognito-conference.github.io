@@ -1,12 +1,7 @@
 /* Sponsors Page Styles */
 @import url('style.css');
 
-@font-face {
-  font-family: 'ONE-Mobile-POP';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
 
 .sponsors-header {
   padding: 120px 0 60px;
@@ -14,7 +9,7 @@
 }
 
 .sponsors-header h1 {
-  font-family: 'ONE-Mobile-POP', sans-serif;
+  font-family: Pretendard;
   font-weight: 500;
   font-style: normal;
   font-size: 48px;
@@ -22,7 +17,7 @@
 }
 
 .sponsors-header p {
-  font-family: 'ONE-Mobile-POP', sans-serif;
+  font-family: Pretendard;
   font-size: 20px;
   max-width: 800px;
   margin: 0 auto;
@@ -89,13 +84,13 @@
 }
 
 .sponsor-name {
-  font-family: 'ONE-Mobile-POP', sans-serif;
+  font-family: Pretendard;
   font-size: 20px;
   margin: 10px 0;
 }
 
 .sponsor-description {
-  font-family: 'ONE-Mobile-POP', sans-serif;
+  font-family: Pretendard;
   text-align: center;
   font-size: 16px;
   line-height: 1.6;
@@ -170,12 +165,12 @@ th,
 td,
 input,
 button {
-  font-family: 'ONE-Mobile-POP', sans-serif !important;
+  font-family: Pretendard !important;
 }
 
 #fh5co-logo,
 #fh5co-logo a {
-  font-family: ONE-Mobile-POP !important;
+  font-family: Pretendard !important;
   font-weight: 700 !important;
   font-size: 64px;
 }
