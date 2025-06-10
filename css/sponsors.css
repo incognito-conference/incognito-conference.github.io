@@ -1,7 +1,7 @@
 /* Sponsors Page Styles */
 @import url('style.css');
 
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css');
 
 .sponsors-header {
   padding: 120px 0 60px;
@@ -231,4 +231,65 @@ button {
   height: 80px;
   width: auto;
   margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  /* 기존 제목/설명 숨김 */
+  #fh5co-header h1,
+  #fh5co-header p {
+    display: none !important;
+  }
+  /* 새 모바일 제목/설명 */
+  .sponsors-title-mobile {
+    font-size: 1.4rem !important;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #fff;
+    text-align: center;
+  }
+  .sponsors-desc-mobile {
+    font-size: 1rem !important;
+    margin-bottom: 18px;
+    line-height: 1.4;
+    color: #ccc;
+    text-align: center;
+  }
+  .sponsor-marquee {
+    display: none !important;
+  }
+  .sponsor-list-mobile {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin: 16px 0 24px 0;
+  }
+  .sponsor-list-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 90vw;
+    max-width: 340px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    border: 1px solid #e0e0e0; /* 테두리 추가로 흰 배경에서 구분감 향상 */
+  }
+  .sponsor-list-item .tier-badge {
+    width: 22px;
+    height: auto;
+    margin: 0;
+  }
+  .sponsor-list-item .sponsor-logo {
+    width: 70px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    background: #fff; /* 흰 배경 유지 */
+  }
 }

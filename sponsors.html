@@ -82,6 +82,10 @@
                 >
                   <h1>Our Sponsors</h1>
                   <p>INCOGNITO 2025를 함께 만들어가는 소중한 파트너들입니다.</p>
+                  <h1 class="sponsors-title-mobile">Our Sponsors</h1>
+                  <p class="sponsors-desc-mobile">
+                    INCOGNITO 2025를 함께 만들어가는 소중한 파트너들입니다.
+                  </p>
                   <div class="sponsor-marquee">
                     <div class="sponsor-marquee-track">
                       <!-- 1셋트 -->
@@ -232,6 +236,77 @@
                       </div>
                     </div>
                   </div>
+                  <!-- 모바일용 스폰서 리스트업 -->
+                  <div class="sponsor-list-mobile">
+                    <div class="sponsor-list-item">
+                      <img
+                        src="images/silver.png"
+                        alt="Silver"
+                        class="tier-badge"
+                      />
+                      <img
+                        src="images/logo_swuniv.svg"
+                        alt="SWU"
+                        class="sponsor-logo"
+                      />
+                    </div>
+                    <div class="sponsor-list-item">
+                      <img
+                        src="images/silver.png"
+                        alt="Silver"
+                        class="tier-badge"
+                      />
+                      <img
+                        src="images/ahnlab.svg"
+                        alt="AhnLab"
+                        class="sponsor-logo"
+                      />
+                    </div>
+                    <div class="sponsor-list-item">
+                      <img
+                        src="images/silver.png"
+                        alt="Silver"
+                        class="tier-badge"
+                      />
+                      <img src="images/nc.svg" alt="NC" class="sponsor-logo" />
+                    </div>
+                    <div class="sponsor-list-item">
+                      <img
+                        src="images/bronze.png"
+                        alt="Bronze"
+                        class="tier-badge"
+                      />
+                      <img
+                        src="images/kitri (2).png"
+                        alt="KITRI"
+                        class="sponsor-logo"
+                      />
+                    </div>
+                    <div class="sponsor-list-item">
+                      <img
+                        src="images/bronze.png"
+                        alt="Bronze"
+                        class="tier-badge"
+                      />
+                      <img
+                        src="images/SK_Hynix.svg.png"
+                        alt="SK Hynix"
+                        class="sponsor-logo"
+                      />
+                    </div>
+                    <div class="sponsor-list-item">
+                      <img
+                        src="images/bronze.png"
+                        alt="Bronze"
+                        class="tier-badge"
+                      />
+                      <img
+                        src="images/kakaopay.png"
+                        alt="KakaoPay"
+                        class="sponsor-logo"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -281,5 +356,69 @@
     <script src="js/jquery.flexslider-min.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
+    <style>
+      .sponsors-title-mobile,
+      .sponsors-desc-mobile,
+      .sponsor-list-mobile {
+        display: none;
+      }
+      @media (max-width: 600px) {
+        #fh5co-header h1,
+        #fh5co-header p,
+        .sponsor-marquee {
+          display: none !important;
+        }
+        .sponsors-title-mobile,
+        .sponsors-desc-mobile {
+          display: block !important;
+          text-align: center;
+          color: #fff;
+        }
+        .sponsors-title-mobile {
+          font-size: 1.4rem !important;
+          font-weight: 700;
+          margin-top: 24px;
+          margin-bottom: 8px;
+        }
+        .sponsors-desc-mobile {
+          font-size: 1rem !important;
+          margin-bottom: 18px;
+          line-height: 1.4;
+          color: #ccc;
+        }
+        .sponsor-list-mobile {
+          display: flex !important;
+          flex-direction: column;
+          align-items: center;
+          gap: 18px;
+          margin: 16px 0 24px 0;
+        }
+        .sponsor-list-item {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          background: #fff;
+          border-radius: 8px;
+          padding: 8px 16px;
+          width: 90vw;
+          max-width: 340px;
+          box-sizing: border-box;
+          justify-content: flex-start;
+        }
+        .sponsor-list-item .tier-badge {
+          width: 22px;
+          height: auto;
+          margin: 0;
+        }
+        .sponsor-list-item .sponsor-logo {
+          width: 70px;
+          height: 32px;
+          object-fit: contain;
+          border-radius: 4px;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    </style>
   </body>
 </html>
